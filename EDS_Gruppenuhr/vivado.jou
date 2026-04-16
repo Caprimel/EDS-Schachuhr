@@ -34,3 +34,203 @@ relaunch_sim
 current_wave_config {Untitled 1}
 add_wave {{/Test_Anzeige/DUT/MUX}} 
 relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source Test_Anzeige.tcl
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/DOut}} 
+relaunch_sim
+run 1 us
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/MUX}} 
+relaunch_sim
+run 1 us
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/D1}} 
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/D2}} 
+current_wave_config {Untitled 2}
+log_wave {/Test_Anzeige/DUT/D3} 
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/D3}} 
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/D4}} 
+relaunch_sim
+run 1 us
+current_wave_config {Untitled 2}
+add_wave {{/Test_Anzeige/DUT/Mux_7_seg}} 
+relaunch_sim
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+close_sim
+launch_simulation
+source Test_Anzeige.tcl
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/DOut}} 
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/Mux_7_seg}} 
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/MUX}} 
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/D1}} 
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/D2}} 
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/D3}} 
+current_wave_config {Untitled 3}
+add_wave {{/Test_Anzeige/DUT/D4}} 
+relaunch_sim
+run 1 us
+run 1 us
+add_bp {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd} 33
+add_bp {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd} 32
+remove_bps -file {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd} -line 33
+remove_bps -file {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd} -line 32
+add_bp {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd} 32
+remove_bps -file {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd} -line 32
+relaunch_sim
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 10 us
+relaunch_sim
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+close_sim
+launch_simulation
+source Test_Anzeige.tcl
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/DOut}} 
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/Blink_cnt}} 
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/Blink_en}} 
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/MUX}} 
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/Mux_7_seg}} 
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/MUX}} 
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 4}
+add_wave {{/Test_Anzeige/DUT/Mux_7_seg}} 
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
