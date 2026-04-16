@@ -11,14 +11,12 @@ component schachuhr_displ is
 port (  Reg_out     : in unsigned (12 downto 0);
         Display_clk : in std_logic;
         Seconds_clk : in std_logic;
-        Mux_7_seg   : out std_logic_vector(3 downto 0);
         Out_7_seg   : out std_logic_vector(7 downto 0));
 end component;
 
 -- testbench internal signals
-signal t_Reg_out    : unsigned (12 downto 0):= "0000100101100";
+signal t_Reg_out    : unsigned (12 downto 0):= "0000000001010"; --300 s
 signal t_Display_clk: std_logic;
-signal t_Mux_7_seg  : std_logic_vector(3 downto 0);
 signal t_Out_7_seg  : std_logic_vector(7 downto 0);
 signal t_Seconds_Clk: std_logic;   
 
@@ -29,7 +27,6 @@ DUT: schachuhr_displ port map (
         Reg_out => t_Reg_out, 
         Display_clk => t_Display_clk, 
         Seconds_clk => t_Seconds_clk,
-        Mux_7_seg => t_Mux_7_seg, 
         Out_7_seg => t_Out_7_seg);
 
 -- run tests -- done in processes
@@ -49,9 +46,9 @@ end process generate_Reg_out;
 
 internal_display_clock : process begin
     t_Display_clk <= '0';
-    wait for 100 ns;
+    wait for 10 ns;
     t_Display_clk <= '1';
-    wait for 100 ns;
+    wait for 10 ns;
 end process internal_display_clock;
 
 end Behavioral;
