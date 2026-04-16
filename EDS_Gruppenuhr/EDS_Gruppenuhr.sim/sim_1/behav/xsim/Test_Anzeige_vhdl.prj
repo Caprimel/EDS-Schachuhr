@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/schachuhr_displ.vhd" \
+"../../../../EDS_Gruppenuhr.srcs/sources_1/new/Test_Anzeige.vhd" \
+
+# Do not sort compile order
+nosort
