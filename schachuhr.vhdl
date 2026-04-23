@@ -9,10 +9,11 @@ use IEEE.numeric_std.all;
 
 entity schachuhr is
 port( 
-player_select, start_stop : in std_logic;
+player_select, start_stop, input_select : in std_logic;
 Reset: in std_logic;
+min_plus, min_minus, sek_plus, sek_minus: in std_logic;
 Clk: in std_logic;
-LED0,LED1: out std_logic;
+LED0,LED1,LED2,LED3: out std_logic;
 Mux_7_seg: out std_logic_vector(3 downto 0);
 Out_7_seg: out std_logic_vector(7 downto 0)
 );
@@ -20,8 +21,9 @@ end schachuhr;
 
 architecture Behavioral of schachuhr is
 -- internal signals and variables
-constant sekunde_trigger :  integer := 10000000; -- 100 MHz -> 100ms 
-constant Blink_trigger : integer := 100; -- 100 MHz -> 10 us 
+constant sekunde_trigger :  integer := 50000000; -- 100 MHz -> 0,5s -> 1s pro Periode
+constant display_trigger :  integer := 100000; -- 100 MHz -> 1ms 
+constant Blink_trigger : integer := 20000000; -- 100 MHz -> 0,2s -> 0,4s pro Periode 
 signal Blink_en     : std_logic := '1';
 signal Blink_cnt    : integer range 0 to Blink_trigger - 1 := 0;
 
@@ -31,17 +33,29 @@ signal Seconds_clk_last: std_logic := '0';
 signal player_last: std_logic:='0';
 signal D1, D2, D3, D4, DOut : unsigned (3 downto 0):= (others => '0');
 
-constant reg_const : unsigned (12 downto 0):= "0000100101100";
-signal Reg_0: unsigned (12 downto 0):= reg_const;
-signal Reg_1: unsigned (12 downto 0):= reg_const;
+signal reg0_const : unsigned (12 downto 0):= "0000100101100";
+signal reg1_const : unsigned (12 downto 0):= "0000100101100";
+signal Reg_0: unsigned (12 downto 0):= reg0_const;
+signal Reg_1: unsigned (12 downto 0):= reg1_const;
 signal Reg_out: unsigned (12 downto 0);
-signal ink0 : unsigned(7 downto 0):= "00000011";
-signal ink1 : unsigned(7 downto 0):= "00000011";
+signal ink0 : unsigned(12 downto 0):= "0000000000011";
+signal ink1 : unsigned(12 downto 0):= "0000000000011";
 
 signal MUX  : unsigned (1 downto 0):= (others=>'0');
 
 begin
-Display_clk <= Clk;
+Display_clock: process(Clk, start_stop)
+variable DCnt : Integer range 0 to display_trigger-1 := 0;
+begin
+if rising_edge(Clk) then
+    if DCnt = display_trigger - 1 then 
+        DCnt := 0;
+        Display_clk <= not Display_clk;  
+    else 
+        DCnt := DCnt + 1;
+    end if;  
+end if;
+end process Display_clock;
 
 Sekunde_clock: process(Clk, start_stop)
 variable SCnt : Integer range 0 to sekunde_trigger-1 := 0;
@@ -58,18 +72,81 @@ if rising_edge(Clk) then
 end if;
 end process Sekunde_clock;
 
-Sekunde_counter: process(Clk,start_stop,Reset,player_select,Seconds_clk,Seconds_clk_last,player_last)
+Sekunde_counter: process(Clk,start_stop,Reset,player_select,Seconds_clk,Seconds_clk_last,player_last,input_select,min_plus, min_minus, sek_plus, sek_minus)
 begin
 --rest
 if (rising_edge(Clk)) then
-    if start_stop ='0' and Reset = '1' then -- clock lauft nicht
-      Reg_1<=reg_const;
-      Reg_0<=reg_const;
+    if start_stop ='0' then
+        if Reset = '1' then -- clock lauft nicht
+            Reg_1<=reg1_const;
+            Reg_0<=reg0_const;
+        else NULL;
+        end if;
+        if input_select ='0' then
+            if player_select = '0' then -- player 0
+                if min_plus = '1' then
+                    reg0_const<= reg0_const+60;
+                    Reg_0 <= (Reg_0 + 60);
+                elsif min_minus = '1' then
+                    reg0_const<= reg0_const-60;
+                    Reg_0 <= (Reg_0 - 60);
+                elsif sek_plus = '1' then
+                    reg0_const<= reg0_const+1;
+                    Reg_0 <= (Reg_0 + 1);
+                elsif sek_minus = '1' then
+                    reg0_const<= reg0_const-1;
+                    Reg_0 <= (Reg_0 - 1);
+                else NULL;
+                end if;
+            elsif player_select = '1' then -- player 0
+                if min_plus = '1' then
+                    reg1_const<= reg1_const+60;
+                    Reg_1 <= (Reg_1 + 60);
+                elsif min_minus = '1' then
+                    reg1_const<= reg1_const-60;
+                    Reg_1 <= (Reg_1 - 60);
+                elsif sek_plus = '1' then
+                    reg1_const<= reg1_const+1;
+                    Reg_1 <= (Reg_1 + 1);
+                elsif sek_minus = '1' then
+                    reg1_const<= reg1_const-1;
+                    Reg_1 <= (Reg_1 - 1);
+                else NULL;
+                end if;
+            else NULL;
+            end if;
+        elsif input_select ='1' then 
+                if player_select = '0' then -- player 0
+                if min_plus = '1' then
+                    ink0<= ink0+60;
+                elsif min_minus = '1' then
+                    ink0<= ink0-60;
+                elsif sek_plus = '1' then
+                    ink0<= ink0+1;
+                elsif sek_minus = '1' then
+                    ink0<= ink0-1;
+                else NULL;
+                end if;
+            elsif player_select = '1' then -- player 0
+                if min_plus = '1' then
+                    ink1<= ink1+60;
+                elsif min_minus = '1' then
+                    ink1<= ink1-60;
+                elsif sek_plus = '1' then
+                    ink1<= ink1+1;
+                elsif sek_minus = '1' then
+                    ink1<= ink1-1;
+                else NULL;
+                end if;    
+            else NULL;
+            end if;
+        else NULL;
+        end if;    
     elsif start_stop='1' then -- clock lauft
-        if player_select/=player_last then 
+        if player_select/=player_last and (Reg_0>0)and (Reg_1>0) then 
             if (player_select='1') then -- if switch player 0 zu 1
                 Reg_0 <= (Reg_0 + ink0);
-            elsif (player_select='0') then  -- if switch player 1 zu 0
+            elsif (player_select='0') and (Reg_1>0) then  -- if switch player 1 zu 0
                 Reg_1 <= (Reg_1 + ink1);
             else NULL;
             end if;
@@ -77,13 +154,13 @@ if (rising_edge(Clk)) then
         end if;
         if Seconds_clk = '1' and Seconds_clk_last = '0' then    -- seconds clk rising edge
             if player_select = '0' then -- player 0
-                if Reg_0 > 0 then
+                if Reg_0 > 0 and (Reg_1>0)then
                     Reg_0 <= Reg_0 - 1;
                 else NULL;
                 end if;
                 Reg_out <= Reg_0;
             elsif player_select = '1' then
-                if Reg_1 > 0 then
+                if Reg_1 > 0 and (Reg_0>0) then
                     Reg_1 <= Reg_1 - 1;
                 else NULL;
                 end if;
@@ -97,9 +174,16 @@ if (rising_edge(Clk)) then
     player_last <= player_select;
     Seconds_clk_last <= Seconds_clk;
     if player_select = '0' then 
-        Reg_out <= Reg_0;
-    else Reg_out <= Reg_1;
-    end if;
+        if input_select ='0' then
+            Reg_out <= Reg_0;
+        else Reg_out <= ink0;
+        end if;
+    else 
+        if input_select ='0' then
+            Reg_out <= Reg_1;
+        else Reg_out <= ink1;
+        end if;
+    end if;        
 else NULL;
 end if;
 end process Sekunde_counter;
@@ -115,10 +199,18 @@ elsif (player_select='1') then
     LED1 <='1';
 else NULL;
 end if;
+if (input_select='0') then
+    LED2 <='1';
+    LED3 <='0';
+elsif (input_select='1') then
+    LED2 <='0';
+    LED3 <='1';
+else NULL;
+end if;
 end process Player_led;
 
 
-AB_out : process (Reg_out, Display_clk)
+ AB_out : process (Reg_out, Display_clk)
 	   begin
 	   -- output for Time on Display    
 	   -- Reg_out / 60 -> Minuten   Min2: Zehner, Min1: Einer
@@ -145,9 +237,9 @@ AB_out : process (Reg_out, Display_clk)
 	    end if;
 	  end process MUXCount;
 -- Blinker wenn Zeit abgelaufen
-    Blink_CLK : process (Display_clk) 			-- Geschwindigkeit vom Blinken bei abgelauener Zeit
+    Blink_CLK : process (Clk) 			-- Geschwindigkeit vom Blinken bei abgelauener Zeit
     begin
-	   if rising_edge(Display_clk) then
+	   if rising_edge(Clk) then
             if Blink_cnt = Blink_trigger - 1 then
                 Blink_cnt <= 0;
                 Blink_en  <= not Blink_en;  -- Toggle alle 0,25s
