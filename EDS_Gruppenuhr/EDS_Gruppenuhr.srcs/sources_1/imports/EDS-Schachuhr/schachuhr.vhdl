@@ -1,8 +1,3 @@
-----------------------------------------------------------------------------------
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.all; 
@@ -20,36 +15,26 @@ Out_7_seg: out std_logic_vector(7 downto 0)
 end schachuhr;
 
 architecture Behavioral of schachuhr is
+
+--Debouncer : aus Delay und Schieberegister
+component generic_debouncer is -- Instanziierung
+    generic (   signal_amount : integer;
+                signal_eq_len : integer;        -- wie viele aufeinanderfolgende Signale gleich sein sollen
+                delay : integer := 2000000);   -- 20 Mio Zyklen, bei 100 MHz --> 5 Hz --> 200 ms 
+    port(
+        Clk : in std_logic;
+        input : in std_logic_vector(signal_amount-1 downto 0);
+        output: out std_logic_vector(signal_amount-1 downto 0));
+end component;
 --Signale für Debouncer 
 signal min_plus_deb     : std_logic;
 signal min_minus_deb    : std_logic; 
 signal sek_plus_deb     : std_logic; 
 signal sek_minus_deb    : std_logic; 
---Debouncer : aus Delay und Schieberegister
-component generic_debouncer is -- eher ein generic delay
-    generic (   signal_amount : integer;
-                signal_eq_len : integer;        -- wie viele aufeinanderfolgende Signale gleich sein sollen
-                delay : integer := 20000000);   -- 20 Mio Zyklen, bei 100 MHz --> 5 Hz --> 200 ms 
-    port(
-        Clk : in std_logic;
-        input : in unsigned(signal_amount-1 downto 0);
-        output: out unsigned(signal_amount-1 downto 0));
-end component;
+signal player_select_deb : std_logic; 
+--signal deb_input        : std_logic_vector (4 downto 0);
+--signal deb_output       : std_logic_vector (4 downto 0); --Hilfssignal
 
-GenDeb : generic_debouncer
-    generic map(
-        signal_amount <= 4,
-        signel_eq_len <= 2000000       
-    )    
-    port map (
-    --component => entity_signals
-    input => min_plus & min_minus & sek_plus & sek_minus,
-    output(3) => min_plus_deb,
-    output(2) => min_minus_deb,
-    output(1) => sek_plus_deb,
-    output(0) => sek_minus_deb,
-    Clk => Clk
-    );
 
 -- internal signals and variables
 constant sekunde_trigger :  integer := 50000000; -- 100 MHz -> 0,5s -> 1s pro Periode
@@ -64,17 +49,47 @@ signal Seconds_clk_last: std_logic := '0';
 signal player_last: std_logic:='0';
 signal D1, D2, D3, D4, DOut : unsigned (3 downto 0):= (others => '0');
 
-signal reg0_const : unsigned (12 downto 0):= "0000100101100";
+signal reg0_const : unsigned (12 downto 0):= "0000100101100";   -- 5 min
 signal reg1_const : unsigned (12 downto 0):= "0000100101100";
 signal Reg_0: unsigned (12 downto 0):= reg0_const;
 signal Reg_1: unsigned (12 downto 0):= reg1_const;
 signal Reg_out: unsigned (12 downto 0);
-signal ink0 : unsigned(12 downto 0):= "0000000000011";
+signal ink0 : unsigned(12 downto 0):= "0000000000011";          -- 3 sek
 signal ink1 : unsigned(12 downto 0):= "0000000000011";
 
 signal MUX  : unsigned (1 downto 0):= (others=>'0');
 
 begin
+
+GenDeb : generic_debouncer --Deklaration
+    generic map(
+        signal_amount => 5,
+        signal_eq_len => 32      
+    )    
+    port map (
+    --component => entity_signals
+    input => player_select & min_plus & min_minus & sek_plus & sek_minus,
+--    output => player_select & min_plus_deb & min_minus_deb & sek_plus_deb & sek_minus_deb, --concatination kann kein Ziel sein.
+--    input => deb_input,
+--    output => deb_output,
+    output(4) => player_select_deb,
+    output(3) => min_plus_deb,
+    output(2) => min_minus_deb,
+    output(1) => sek_plus_deb,
+    output(0) => sek_minus_deb,
+    Clk => Clk
+    );
+
+--DebSignals : process (player_select, min_plus, min_minus, sek_plus, sek_minus, deb_output)
+--begin
+--    deb_input           <= player_select & min_plus & min_minus & sek_plus & sek_minus;
+--    player_select_deb   <= deb_output(4);
+--    min_plus_deb        <= deb_output(3);
+--    min_minus_deb       <= deb_output(2);
+--    sek_plus_deb        <= deb_output(1);
+--    sek_minus_deb       <= deb_output(0);
+--end process Debsignals;
+
 Display_clock: process(Clk, start_stop)
 variable DCnt : Integer range 0 to display_trigger-1 := 0;
 begin
@@ -103,7 +118,8 @@ if rising_edge(Clk) then
 end if;
 end process Sekunde_clock;
 
-Sekunde_counter: process(Clk,start_stop,Reset,player_select,Seconds_clk,Seconds_clk_last,player_last,input_select,min_plus_deb,min_minus_deb,sek_plus_deb,sek_minus_deb)
+Sekunde_counter: process(   Clk,start_stop,Reset,player_select_deb,Seconds_clk,Seconds_clk_last,
+                            player_last,input_select,min_plus_deb,min_minus_deb,sek_plus_deb,sek_minus_deb)
 begin
 --rest
 if (rising_edge(Clk)) then
@@ -114,7 +130,7 @@ if (rising_edge(Clk)) then
         else NULL;
         end if;
         if input_select ='0' then
-            if player_select = '0' then -- player 0
+            if player_select_deb = '0' then -- player 0
                 if min_plus_deb = '1' then
                     reg0_const<= reg0_const+60;
                     Reg_0 <= (Reg_0 + 60);
@@ -129,7 +145,7 @@ if (rising_edge(Clk)) then
                     Reg_0 <= (Reg_0 - 1);
                 else NULL;
                 end if;
-            elsif player_select = '1' then -- player 0
+            elsif player_select_deb = '1' then -- player 0
                 if min_plus_deb = '1' then
                     reg1_const<= reg1_const+60;
                     Reg_1 <= (Reg_1 + 60);
@@ -147,7 +163,7 @@ if (rising_edge(Clk)) then
             else NULL;
             end if;
         elsif input_select ='1' then 
-                if player_select = '0' then -- player 0
+                if player_select_deb = '0' then -- player 0
                 if min_plus_deb = '1' then
                     ink0<= ink0+60;
                 elsif min_minus_deb = '1' then
@@ -158,7 +174,7 @@ if (rising_edge(Clk)) then
                     ink0<= ink0-1;
                 else NULL;
                 end if;
-            elsif player_select = '1' then -- player 0
+            elsif player_select_deb = '1' then -- player 0
                 if min_plus_deb = '1' then
                     ink1<= ink1+60;
                 elsif min_minus_deb = '1' then
@@ -172,25 +188,26 @@ if (rising_edge(Clk)) then
             else NULL;
             end if;
         else NULL;
-        end if;    
+        end if;  
+          
     elsif start_stop='1' then -- clock lauft
-        if player_select/=player_last and (Reg_0>0)and (Reg_1>0) then 
-            if (player_select='1') then -- if switch player 0 zu 1
+        if player_select_deb/=player_last and (Reg_0>0)and (Reg_1>0) then 
+            if (player_select_deb='1') then -- if switch player 0 zu 1
                 Reg_0 <= (Reg_0 + ink0);
-            elsif (player_select='0') and (Reg_1>0) then  -- if switch player 1 zu 0
+            elsif (player_select_deb='0') and (Reg_1>0) then  -- if switch player 1 zu 0
                 Reg_1 <= (Reg_1 + ink1);
             else NULL;
             end if;
         else NULL;
         end if;
         if Seconds_clk = '1' and Seconds_clk_last = '0' then    -- seconds clk rising edge
-            if player_select = '0' then -- player 0
+            if player_select_deb = '0' then -- player 0
                 if Reg_0 > 0 and (Reg_1>0)then
                     Reg_0 <= Reg_0 - 1;
                 else NULL;
                 end if;
                 Reg_out <= Reg_0;
-            elsif player_select = '1' then
+            elsif player_select_deb = '1' then
                 if Reg_1 > 0 and (Reg_0>0) then
                     Reg_1 <= Reg_1 - 1;
                 else NULL;
@@ -202,9 +219,10 @@ if (rising_edge(Clk)) then
         end if;                    
     else NULL;
     end if; 
-    player_last <= player_select;
+    
+    player_last <= player_select_deb;
     Seconds_clk_last <= Seconds_clk;
-    if player_select = '0' then 
+    if player_select_deb = '0' then 
         if input_select ='0' then
             Reg_out <= Reg_0;
         else Reg_out <= ink0;
@@ -220,12 +238,12 @@ end if;
 end process Sekunde_counter;
 
 -- player switch
-Player_led: process(player_select)
+Player_led: process(player_select_deb, input_select)
 begin
-if (player_select='0') then
+if (player_select_deb='0') then
     LED0 <='1';
     LED1 <='0';
-elsif (player_select='1') then
+elsif (player_select_deb='1') then
     LED0 <='0';
     LED1 <='1';
 else NULL;
@@ -291,7 +309,6 @@ end process Player_led;
                 Mux_7_seg <= "1111";
             else
                 -- Normal-Phase: MUX durchcyclen
-                -- (auch wenn Reg_out /= 0 immer aktiv)
                 case MUX is
                     when "00"   => Mux_7_seg <= "1110";
                     when "01"   => Mux_7_seg <= "1101";

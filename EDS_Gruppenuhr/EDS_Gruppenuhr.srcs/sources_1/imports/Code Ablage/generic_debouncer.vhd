@@ -8,8 +8,8 @@ entity generic_debouncer is -- eher ein generic delay
                 delay : integer := 20000000);   -- 20 Mio Zyklen, bei 100 MHz --> 5 Hz --> 200 ms 
     port(
         Clk : in std_logic;
-        input : in unsigned(signal_amount-1 downto 0);
-        output: out unsigned(signal_amount-1 downto 0));
+        input : in std_logic_vector(signal_amount-1 downto 0);
+        output: out std_logic_vector(signal_amount-1 downto 0));
 end generic_debouncer;
 
 
@@ -22,19 +22,20 @@ begin
 --for loop außerhalb eines Prozesses    
 --für jedes Bit eine eigene debouncer Instanz mit Delay und Schieberegister
 GenDeb : for i in signal_amount-1 downto 0 generate
-
     LastSig: process(Clk) 
         variable clock_counter : integer range 0 to delay := 0;
         begin
         if rising_edge(Clk) then
-            -- Schieberegister: neuen Wert von links reinschieben
             Reg_new(i) <= input(i) & Reg_new(i)(signal_eq_len-1 downto 1);
               
-            if (clock_counter < delay) then
-                clock_counter := clock_counter + 1;  
-            elsif (Reg_new(i) = Reg_old(i)) then
-                output(i) <= input(i);
+            if (clock_counter < delay) then         -- wenn delay noch nicht vergangen, warten
+                clock_counter := clock_counter + 1;
+                Reg_old(i) <= Reg_new(i);           -- hier werden schon die vergangenen Signale aufgezeichnet
+            elsif (Reg_new(i) = Reg_old(i)) then    -- wenn delay vorbei und kein Rauschen
+                output(i) <= input(i);              
                 clock_counter := 0;
+            else 
+            Reg_old(i) <= Reg_new(i);               -- wenn delay vorbei aber das Signal immer noch rauscht
             end if;
         end if;
     end process LastSig;

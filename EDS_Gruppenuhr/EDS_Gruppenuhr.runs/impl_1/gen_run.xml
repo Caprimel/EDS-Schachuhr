@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777461823">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777476482">
   <File Type="PA-TCL" Name="schachuhr.tcl"/>
   <File Type="REPORTS-TCL" Name="schachuhr_reports.tcl"/>
   <File Type="INIT-TIMING" Name="schachuhr_timing_summary_init.rpt"/>
@@ -117,14 +117,14 @@
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Test_schachuhr.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/Code Ablage/schachuhr_displ.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../Code Ablage/schachuhr_displ.vhd"/>
         <Attr Name="ImportTime" Val="1776258727"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -133,7 +133,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/Test_Anzeige.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

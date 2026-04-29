@@ -92,14 +92,14 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/new/Test_schachuhr.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Code Ablage/schachuhr_displ.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Code Ablage/schachuhr_displ.vhd"/>
           <Attr Name="ImportTime" Val="1776258727"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -108,7 +108,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Test_Anzeige.vhd">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
