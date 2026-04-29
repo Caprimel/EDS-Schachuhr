@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/synth_1'
+HD_PWD='C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,4 +41,8 @@ EAStep()
      fi
 }
 
-EAStep vivado -log schachuhr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source schachuhr.tcl
+# pre-commands:
+/bin/touch .init_design.begin.rst
+EAStep vivado -log schachuhr.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source schachuhr.tcl -notrace
+
+

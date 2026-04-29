@@ -17,11 +17,12 @@ architecture Behavioral of generic_debouncer is
     type internal_array_type is array (signal_amount-1 downto 0) of unsigned(signal_eq_len-1 downto 0);
     signal Reg_new : internal_array_type;
     signal Reg_old : internal_array_type;
-    
+
+begin    
 --for loop außerhalb eines Prozesses    
 --für jedes Bit eine eigene debouncer Instanz mit Delay und Schieberegister
 GenDeb : for i in signal_amount-1 downto 0 generate
-    begin
+
     LastSig: process(Clk) 
         variable clock_counter : integer range 0 to delay := 0;
         begin
@@ -30,8 +31,7 @@ GenDeb : for i in signal_amount-1 downto 0 generate
             Reg_new(i) <= input(i) & Reg_new(i)(signal_eq_len-1 downto 1);
               
             if (clock_counter < delay) then
-                clock_counter := clock_counter + 1;
-            end if;  
+                clock_counter := clock_counter + 1;  
             elsif (Reg_new(i) = Reg_old(i)) then
                 output(i) <= input(i);
                 clock_counter := 0;
