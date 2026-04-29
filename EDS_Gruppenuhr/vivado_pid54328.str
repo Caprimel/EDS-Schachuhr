@@ -175,3 +175,461 @@ selectCodeEditor("schachuhr.vhdl", 445, 384); // ae (schachuhr.vhdl)
 // Elapsed time: 56 seconds
 selectCodeEditor("schachuhr.vhdl", 356, 327); // ae (schachuhr.vhdl)
 // HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 76 MB. Current time: 4/29/26, 12:52:06 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 74 MB. Current time: 4/29/26, 12:52:49 PM CEST
+// Elapsed time: 67 seconds
+selectCodeEditor("schachuhr.vhdl", 74, 474); // ae (schachuhr.vhdl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("generic_debouncer.vhd", 251, 649); // ae (generic_debouncer.vhd)
+typeControlKey((HResource) null, "generic_debouncer.vhd", 'v'); // ae (generic_debouncer.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// [GUI Memory]: 150 MB (+2344kb) [00:03:12]
+selectCodeEditor("schachuhr.vhdl", 488, 346); // ae (schachuhr.vhdl)
+typeControlKey((HResource) null, "schachuhr.vhdl", 'v'); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 76 MB. Current time: 4/29/26, 12:53:29 PM CEST
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("generic_debouncer.vhd", 160, 643); // ae (generic_debouncer.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("schachuhr.vhdl", 394, 338); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 403, 331); // ae (schachuhr.vhdl)
+typeControlKey((HResource) null, "schachuhr.vhdl", 'v'); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 291, 257); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 472, 404); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 76 MB. Current time: 4/29/26, 12:54:10 PM CEST
+selectCodeEditor("schachuhr.vhdl", 303, 605); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 303, 605, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("schachuhr.vhdl", 526, 307); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 524, 259); // ae (schachuhr.vhdl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "schachuhr.vhdl", 'v'); // ae (schachuhr.vhdl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+typeControlKey((HResource) null, "generic_debouncer.vhd", 'v'); // ae (generic_debouncer.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("schachuhr.vhdl", 312, 283); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 77 MB. Current time: 4/29/26, 12:54:50 PM CEST
+typeControlKey((HResource) null, "schachuhr.vhdl", 'v'); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 77 MB. Current time: 4/29/26, 12:55:30 PM CEST
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("generic_debouncer.vhd", 505, 410); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 0, 281); // ae (generic_debouncer.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("schachuhr.vhdl", 80, 513); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 391, 131); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 75 MB. Current time: 4/29/26, 12:56:10 PM CEST
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "schachuhr.vhdl", 'v'); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 314, 522); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 316, 518, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 75 MB. Current time: 4/29/26, 12:56:51 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 77 MB. Current time: 4/29/26, 12:57:31 PM CEST
+// Elapsed time: 91 seconds
+selectCodeEditor("schachuhr.vhdl", 515, 33); // ae (schachuhr.vhdl)
+typeControlKey((HResource) null, "schachuhr.vhdl", 'c'); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 63, 492); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 83, 485); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 83, 487, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+typeControlKey((HResource) null, "schachuhr.vhdl", 'v'); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 0, 491); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 75 MB. Current time: 4/29/26, 12:58:11 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 77 MB. Current time: 4/29/26, 12:58:51 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 09m:03s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.  
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 09m:04s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 77 MB. Current time: 4/29/26, 12:59:31 PM CEST
+// Elapsed time: 84 seconds
+selectCodeEditor("schachuhr.vhdl", 122, 394); // ae (schachuhr.vhdl)
+// Elapsed time: 12 seconds
+selectCodeEditor("schachuhr.vhdl", 241, 469); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 231, 476); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 102, 582); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:00:11 PM CEST
+// Elapsed time: 52 seconds
+selectCodeEditor("schachuhr.vhdl", 135, 571); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 75 MB. Current time: 4/29/26, 1:00:51 PM CEST
+// Elapsed time: 13 seconds
+selectCodeEditor("schachuhr.vhdl", 378, 137); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 378, 137, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+selectCodeEditor("schachuhr.vhdl", 376, 139); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:01:32 PM CEST
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 11m:19s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 11m:21s
+selectCodeEditor("generic_debouncer.vhd", 225, 175); // ae (generic_debouncer.vhd)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("schachuhr.vhdl", 531, 252); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 534, 245); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:02:12 PM CEST
+selectCodeEditor("schachuhr.vhdl", 315, 516); // ae (schachuhr.vhdl)
+// Elapsed time: 14 seconds
+selectCodeEditor("schachuhr.vhdl", 323, 483); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 326, 477); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 75 MB. Current time: 4/29/26, 1:02:52 PM CEST
+// Elapsed time: 59 seconds
+selectCodeEditor("schachuhr.vhdl", 151, 258); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 94, 273); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 92, 300); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 92, 278); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 91, 260); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:03:32 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 13m:45s
+// Elapsed time: 32 seconds
+selectCodeEditor("schachuhr.vhdl", 411, 192); // ae (schachuhr.vhdl)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 13m:47s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 13m:49s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 13m:51s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 75 MB. Current time: 4/29/26, 1:04:13 PM CEST
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 75 MB. Current time: 4/29/26, 1:04:53 PM CEST
+// Elapsed time: 67 seconds
+selectCodeEditor("schachuhr.vhdl", 285, 408); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:05:33 PM CEST
+// Elapsed time: 30 seconds
+selectCodeEditor("schachuhr.vhdl", 21, 97); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 22, 95, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+selectCodeEditor("schachuhr.vhdl", 26, 101); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 26, 101, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+selectCodeEditor("schachuhr.vhdl", 1104, 324); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:06:13 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:06:53 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:07:33 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:08:13 PM CEST
+// Elapsed time: 162 seconds
+selectCodeEditor("schachuhr.vhdl", 500, 325); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 639, 330); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 771, 331); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 77 MB. Current time: 4/29/26, 1:08:53 PM CEST
+// Elapsed time: 21 seconds
+selectCodeEditor("schachuhr.vhdl", 89, 245); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 135, 281); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 171, 184); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 439, 262); // ae (schachuhr.vhdl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 19m:09s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 19m:11s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 75 MB. Current time: 4/29/26, 1:09:34 PM CEST
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+dismissDialog("Open Hardware Manager"); // bk (Open Hardware Manager Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+dismissDialog("Synthesis is Out-of-date"); // x (dialog0)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/synth_1/Test_Anzeige.dcp to C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cU' command handler elapsed time: 4 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:09:51 PM CEST
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cX (dialog1)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Wed Apr 29 13:09:51 2026] Launched synth_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/synth_1/runme.log [Wed Apr 29 13:09:51 2026] Launched impl_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bk (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:10:15 PM CEST
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:10:55 PM CEST
+// Elapsed time: 64 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // W.a (dialog2)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bk (Close Hardware Manager Progress)
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_RESTORE_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_RESTORE_PlanAheadTabBaseWorkspace_JideTabbedPane)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("generic_debouncer.vhd", 326, 110); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 279, 159); // ae (generic_debouncer.vhd)
+typeControlKey((HResource) null, "generic_debouncer.vhd", 'c'); // ae (generic_debouncer.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:11:35 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:12:15 PM CEST
+// Elapsed time: 46 seconds
+selectCodeEditor("generic_debouncer.vhd", 84, 235); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 104, 389); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 14, 308); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 15, 308); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 5, 302); // ae (generic_debouncer.vhd)
+typeControlKey((HResource) null, "generic_debouncer.vhd", 'v'); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 30, 309); // ae (generic_debouncer.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 22m:15s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 22m:17s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:12:56 PM CEST
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("No Implementation Results Available"); // x (dialog3)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cU' command handler elapsed time: 3 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:13:10 PM CEST
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cX (dialog4)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Wed Apr 29 13:13:11 2026] Launched synth_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/synth_1/runme.log [Wed Apr 29 13:13:11 2026] Launched impl_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:13:37 PM CEST
+// Elapsed time: 26 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // W.a (dialog5)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-36] 'min_minus_deb' is not declared [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:121]. ]", 10, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-36] 'min_minus_deb' is not declared [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:121]. , [Synth 8-36] 'min_minus_deb' is not declared [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:136]. ]", 14, false, false, false, false, false, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Double Click
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_MAXIMIZE_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_MAXIMIZE_PlanAheadTabBaseWorkspace_JideTabbedPane)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:14:17 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:14:57 PM CEST
+// Elapsed time: 81 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // S (PAResourceOtoP.PAViews_MESSAGES, Messages)
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_MINIMIZE_Messages"); // P.a (RDIResource.FrameControlsPanel_MINIMIZE_Messages)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:15:37 PM CEST
+// Elapsed time: 40 seconds
+selectCodeEditor("schachuhr.vhdl", 264, 474); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 191, 477); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 191, 477, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+selectCodeEditor("schachuhr.vhdl", 61, 474); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 61, 474, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+selectCodeEditor("schachuhr.vhdl", 59, 474); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 59, 475); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 58, 476); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 58, 476); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 58, 476); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 59, 476); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 59, 476); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 63, 473); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 62, 474); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 69, 471); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 69, 471, false, false, false, false, true); // ae (schachuhr.vhdl) - Double Click
+selectCodeEditor("schachuhr.vhdl", 69, 471); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:16:17 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:16:57 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:17:37 PM CEST
+// Elapsed time: 85 seconds
+selectCodeEditor("schachuhr.vhdl", 398, 467); // ae (schachuhr.vhdl)
+typeControlKey((HResource) null, "schachuhr.vhdl", 'c'); // ae (schachuhr.vhdl)
+// Elapsed time: 28 seconds
+selectCodeEditor("schachuhr.vhdl", 368, 282); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 176, 229); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 182, 239); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:18:18 PM CEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 28m:17s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 28m:19s
+// Elapsed time: 27 seconds
+selectCodeEditor("schachuhr.vhdl", 412, 260); // ae (schachuhr.vhdl)
+selectCodeEditor("schachuhr.vhdl", 409, 248); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:18:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:19:38 PM CEST
+// Elapsed time: 56 seconds
+selectCodeEditor("schachuhr.vhdl", 234, 236); // ae (schachuhr.vhdl)
+// Elapsed time: 22 seconds
+selectCodeEditor("schachuhr.vhdl", 302, 291); // ae (schachuhr.vhdl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 80 MB. Current time: 4/29/26, 1:20:18 PM CEST
+// Elapsed time: 17 seconds
+selectCodeEditor("schachuhr.vhdl", 312, 222); // ae (schachuhr.vhdl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 30m:10s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 30m:12s
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // f (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // x (dialog6)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:20:54 PM CEST
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cX (dialog7)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Wed Apr 29 13:20:54 2026] Launched synth_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/synth_1/runme.log [Wed Apr 29 13:20:54 2026] Launched impl_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:20:59 PM CEST
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 83 MB. Current time: 4/29/26, 1:21:39 PM CEST
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // W.a (dialog8)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'if' [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/generic_debouncer.vhd:40]. ]", 5, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'if' [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/generic_debouncer.vhd:40]. ]", 5, true, false, false, false, false, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("generic_debouncer.vhd", 5, 311); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 51, 302); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 93, 303); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 93, 304, false, false, false, false, true); // ae (generic_debouncer.vhd) - Double Click
+selectCodeEditor("generic_debouncer.vhd", 113, 192); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 113, 193, false, false, false, false, true); // ae (generic_debouncer.vhd) - Double Click
+selectCodeEditor("generic_debouncer.vhd", 124, 285); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 124, 285, false, false, false, false, true); // ae (generic_debouncer.vhd) - Double Click
+selectCodeEditor("generic_debouncer.vhd", 175, 201); // ae (generic_debouncer.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:22:19 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 81 MB. Current time: 4/29/26, 1:22:59 PM CEST
+// Elapsed time: 79 seconds
+selectCodeEditor("generic_debouncer.vhd", 656, 148); // ae (generic_debouncer.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 33m:12s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.  
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 33m:14s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 33m:16s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 33m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 83 MB. Current time: 4/29/26, 1:23:40 PM CEST
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // f (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // x (dialog9)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 83 MB. Current time: 4/29/26, 1:23:42 PM CEST
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cX (dialog10)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Wed Apr 29 13:23:43 2026] Launched synth_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/synth_1/runme.log [Wed Apr 29 13:23:43 2026] Launched impl_1... Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 161 MB (+2674kb) [00:33:58]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // W.a (dialog11)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true, false, false, false, false, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'GenDeb' [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:39]. ]", 10, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "schachuhr.vhdl", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "generic_debouncer.vhd", 2); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("generic_debouncer.vhd", 166, 298); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 164, 298, false, false, false, false, true); // ae (generic_debouncer.vhd) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:24:20 PM CEST
+selectCodeEditor("generic_debouncer.vhd", 102, 305); // ae (generic_debouncer.vhd)
+selectCodeEditor("generic_debouncer.vhd", 102, 305, false, false, false, false, true); // ae (generic_debouncer.vhd) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("generic_debouncer.vhd", 287, 328); // ae (generic_debouncer.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 82 MB. Current time: 4/29/26, 1:25:00 PM CEST
+// Elapsed time: 20 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.. . ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'GenDeb' [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:39]. ]", 5, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near 'GenDeb' [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:39]. ]", 7, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2716] syntax error near 'GenDeb' [C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl:39]. ]", 9, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
