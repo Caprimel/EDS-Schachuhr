@@ -24,7 +24,8 @@
 start_gui
 open_project {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.xpr}
 update_compile_order -fileset sources_1
-reset_run synth_1
+open_run impl_1
+1
 launch_runs impl_1 -to_step write_bitstream -jobs 8
 wait_on_run impl_1
 open_hw_manager
