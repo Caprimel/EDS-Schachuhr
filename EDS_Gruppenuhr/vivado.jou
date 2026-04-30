@@ -3,10 +3,10 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Thu Apr 30 12:52:44 2026
-# Process ID         : 94540
+# Start of session at: Thu Apr 30 17:49:52 2026
+# Process ID         : 100152
 # Current directory  : C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent71824 C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent98596 C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.xpr
 # Log file           : C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/vivado.log
 # Journal file       : C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr\vivado.jou
 # Running On         : BOOK-IIJ6TH63CB
@@ -17,82 +17,10 @@
 # CPU Physical cores : 12
 # CPU Logical cores  : 16
 # Host memory        : 16854 MB
-# Swap memory        : 17911 MB
-# Total Virtual      : 34766 MB
-# Available Virtual  : 24576 MB
+# Swap memory        : 17519 MB
+# Total Virtual      : 34373 MB
+# Available Virtual  : 26311 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.xpr}
 update_compile_order -fileset sources_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILreset_run impl_1 -prev_step 
-HBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-close_hw_manager
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-open_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-reset_run impl_1 -prev_step 
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-close_hw_manager
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/schachuhr.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
