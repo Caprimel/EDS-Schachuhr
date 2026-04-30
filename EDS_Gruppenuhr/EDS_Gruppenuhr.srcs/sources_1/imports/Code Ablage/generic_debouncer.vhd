@@ -5,7 +5,7 @@ use IEEE.numeric_std.all;
 entity generic_debouncer is -- eher ein generic delay
     generic (   signal_amount : integer;
                 signal_eq_len : integer;        -- wie viele aufeinanderfolgende Signale gleich sein sollen
-                delay : integer := 20000000);   -- 20 Mio Zyklen, bei 100 MHz --> 5 Hz --> 200 ms 
+                delay : integer := 25000000);   -- 20 Mio Zyklen, bei 100 MHz --> 5 Hz --> 200 ms 
     port(
         Clk : in std_logic;
         input : in std_logic_vector(signal_amount-1 downto 0);

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date             : Wed Apr 29 17:29:46 2026
+| Date             : Thu Apr 30 13:47:36 2026
 | Host             : BOOK-IIJ6TH63CB running 64-bit major release  (build 9200)
 | Command          : report_power -file schachuhr_power_routed.rpt -pb schachuhr_power_summary_routed.pb -rpx schachuhr_power_routed.rpx
 | Design           : schachuhr
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.082        |
+| Total On-Chip Power (W)  | 0.083        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.010        |
+| Dynamic (W)              | 0.011        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.6         |
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.004 |        3 |       --- |             --- |
-| Slice Logic    |     0.002 |     1310 |       --- |             --- |
-|   LUT as Logic |     0.002 |      462 |     20800 |            2.22 |
-|   CARRY4       |    <0.001 |      137 |      8150 |            1.68 |
-|   Register     |    <0.001 |      604 |     41600 |            1.45 |
+| Slice Logic    |     0.003 |     1359 |       --- |             --- |
+|   LUT as Logic |     0.002 |      464 |     20800 |            2.23 |
+|   CARRY4       |    <0.001 |      151 |      8150 |            1.85 |
+|   Register     |    <0.001 |      631 |     41600 |            1.52 |
 |   Others       |     0.000 |        4 |       --- |             --- |
-| Signals        |     0.003 |     1038 |       --- |             --- |
+| Signals        |     0.003 |     1104 |       --- |             --- |
 | I/O            |     0.002 |       25 |       106 |           23.58 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.082 |          |           |                 |
+| Total          |     0.083 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -140,8 +140,8 @@ Table of Contents
 +-----------+-----------+
 | Name      | Power (W) |
 +-----------+-----------+
-| schachuhr |     0.010 |
-|   GenDeb  |     0.005 |
+| schachuhr |     0.011 |
+|   GenDeb  |     0.006 |
 +-----------+-----------+
 
 

@@ -120,42 +120,59 @@ end process Sekunde_clock;
 
 Sekunde_counter: process(   Clk,start_stop,Reset,player_select_deb,Seconds_clk,Seconds_clk_last,
                             player_last,input_select,min_plus_deb,min_minus_deb,sek_plus_deb,sek_minus_deb)
+variable Taster : integer range 0 to sekunde_trigger-1 := 0;  --Hilfsvariable zur Taster Reaktionszeit     
+variable Taster_schlussel : std_logic := '1';       --Schlüssel: '1' Tastersignal freigegeben; '0' Taster wurde innerhalb von letzten 200 ms gedrückt              
 begin
 --rest
 if (rising_edge(Clk)) then
-    if start_stop ='0' then
+    Taster := Taster + 1;
+    if(Taster >= sekunde_trigger/5 * 2) then -- Tastersignal darf alle 200 ms durchkommen
+        Taster := 0;
+        Taster_schlussel := '1';
+    end if;
+    
+    if (start_stop ='0') and (Taster_schlussel = '1') then
         if Reset = '1' then -- clock lauft nicht
             Reg_1<=reg1_const;
             Reg_0<=reg0_const;
         else NULL;
         end if;
-        if input_select ='0' then
+        if input_select ='0' then 
+             
             if player_select_deb = '0' then -- player 0
                 if min_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg0_const<= reg0_const+60;
                     Reg_0 <= (Reg_0 + 60);
                 elsif min_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg0_const<= reg0_const-60;
                     Reg_0 <= (Reg_0 - 60);
                 elsif sek_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg0_const<= reg0_const+1;
                     Reg_0 <= (Reg_0 + 1);
                 elsif sek_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg0_const<= reg0_const-1;
                     Reg_0 <= (Reg_0 - 1);
                 else NULL;
                 end if;
             elsif player_select_deb = '1' then -- player 0
                 if min_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg1_const<= reg1_const+60;
                     Reg_1 <= (Reg_1 + 60);
                 elsif min_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg1_const<= reg1_const-60;
                     Reg_1 <= (Reg_1 - 60);
                 elsif sek_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg1_const<= reg1_const+1;
                     Reg_1 <= (Reg_1 + 1);
                 elsif sek_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     reg1_const<= reg1_const-1;
                     Reg_1 <= (Reg_1 - 1);
                 else NULL;
@@ -165,23 +182,31 @@ if (rising_edge(Clk)) then
         elsif input_select ='1' then 
                 if player_select_deb = '0' then -- player 0
                 if min_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink0<= ink0+60;
                 elsif min_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink0<= ink0-60;
                 elsif sek_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink0<= ink0+1;
                 elsif sek_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink0<= ink0-1;
                 else NULL;
                 end if;
             elsif player_select_deb = '1' then -- player 0
                 if min_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink1<= ink1+60;
                 elsif min_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink1<= ink1-60;
                 elsif sek_plus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink1<= ink1+1;
                 elsif sek_minus_deb = '1' then
+                    Taster_schlussel := '0';
                     ink1<= ink1-1;
                 else NULL;
                 end if;    
