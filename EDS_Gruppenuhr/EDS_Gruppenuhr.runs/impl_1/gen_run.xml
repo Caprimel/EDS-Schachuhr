@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777549548">
+  <File Type="PA-TCL" Name="schachuhr.tcl"/>
+  <File Type="REPORTS-TCL" Name="schachuhr_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="schachuhr_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="schachuhr_opt.dcp"/>
+  <File Type="OPT-DRC" Name="schachuhr_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="schachuhr_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="schachuhr_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="schachuhr_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="schachuhr.hwdef"/>
+  <File Type="OPT-TIMING" Name="schachuhr_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="schachuhr_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="schachuhr_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="schachuhr_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="schachuhr_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="schachuhr_placed.dcp"/>
+  <File Type="PLACE-IO" Name="schachuhr_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="schachuhr_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="schachuhr_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="schachuhr_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="schachuhr_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="schachuhr_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="schachuhr_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="schachuhr_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="schachuhr_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="schachuhr_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="schachuhr_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="schachuhr_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="schachuhr_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="schachuhr_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="schachuhr_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="schachuhr_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="schachuhr_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="schachuhr_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="schachuhr_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="schachuhr_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="schachuhr_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="schachuhr_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="schachuhr_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="schachuhr_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="schachuhr_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="schachuhr_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="schachuhr_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="schachuhr_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="schachuhr_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="schachuhr_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="schachuhr_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="schachuhr_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="schachuhr_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="schachuhr_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="schachuhr_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="schachuhr_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="schachuhr_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="schachuhr_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="schachuhr_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="schachuhr_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="schachuhr_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="schachuhr_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="schachuhr_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="schachuhr_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="schachuhr_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="schachuhr_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="schachuhr_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="schachuhr.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="schachuhr.ncr"/>
+  <File Type="BG-BIT" Name="schachuhr.bit"/>
+  <File Type="BG-BIN" Name="schachuhr.bin"/>
+  <File Type="BITSTR-MSK" Name="schachuhr.msk"/>
+  <File Type="BITSTR-RBT" Name="schachuhr.rbt"/>
+  <File Type="BITSTR-NKY" Name="schachuhr.nky"/>
+  <File Type="BITSTR-BMM" Name="schachuhr_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="schachuhr.mmi"/>
+  <File Type="PDI-FILE" Name="schachuhr.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="schachuhr_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="schachuhr_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="schachuhr.rcfi"/>
+  <File Type="CFI_FILE" Name="schachuhr.cfi"/>
+  <File Type="RNPI_FILE" Name="schachuhr.rnpi"/>
+  <File Type="RCDO-FILE" Name="schachuhr.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="schachuhr_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="schachuhr_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="schachuhr_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="schachuhr_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="schachuhr_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="schachuhr_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="schachuhr_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="schachuhr_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="schachuhr_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="schachuhr_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="schachuhr_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="schachuhr_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="schachuhr_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="schachuhr_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="schachuhr_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="schachuhr.npi"/>
+  <File Type="RBD_FILE" Name="schachuhr.rbd"/>
+  <File Type="MMI-FILE" Name="schachuhr.mmi"/>
+  <File Type="BIF-FILE" Name="schachuhr.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="schachuhr_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="schachuhr_pld.bif"/>
+  <File Type="LTX-FILE" Name="schachuhr.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="schachuhr_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="schachuhr_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="schachuhr.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="schachuhr.sysdef"/>
+  <File Type="BG-BGN" Name="schachuhr.bgn"/>
+  <File Type="BG-DRC" Name="schachuhr.drc"/>
+  <File Type="RDI-RDI" Name="schachuhr.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="schachuhr_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="schachuhr_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Test_schachuhr.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Code Ablage/schachuhr_displ.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Code Ablage/schachuhr_displ.vhd"/>
+        <Attr Name="ImportTime" Val="1776258727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Test_Anzeige.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Code Ablage/generic_debouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Code Ablage/generic_debouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1776954306"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/EDS-Schachuhr/schachuhr.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../schachuhr.vhdl"/>
+        <Attr Name="ImportTime" Val="1777453745"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="schachuhr"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/EDS-Schachuhr/Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1777453745"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Test_Anzeige.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

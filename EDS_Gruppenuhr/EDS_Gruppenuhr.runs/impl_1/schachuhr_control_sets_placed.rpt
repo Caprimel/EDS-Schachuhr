@@ -1,0 +1,106 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Apr 30 13:47:13 2026
+| Host         : BOOK-IIJ6TH63CB running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file schachuhr_control_sets_placed.rpt
+| Design       : schachuhr
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    28 |
+|    Minimum number of control sets                        |    28 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   105 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    28 |
+| >= 0 to < 4        |     5 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     6 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    15 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             186 |           58 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              72 |           21 |
+| Yes          | No                    | No                     |             243 |           65 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             130 |           37 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+------------------------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |                     Enable Signal                    |              Set/Reset Signal             | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+------------------------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[4].output[4]_i_1_n_0                   |                                           |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG       | GenDeb/output8_out                                   |                                           |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG       | GenDeb/output4_out                                   |                                           |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG       | GenDeb/output2_out                                   |                                           |                1 |              1 |         1.00 |
+|  Clk_IBUF_BUFG       | GenDeb/output6_out                                   |                                           |                1 |              1 |         1.00 |
+|  Display_clk_reg_n_0 |                                                      | Mux_7_seg0                                |                2 |              4 |         2.00 |
+|  Display_clk_reg_n_0 |                                                      |                                           |                5 |              6 |         1.20 |
+|  Clk_IBUF_BUFG       | GenDeb/Sekunde_counter.Taster_schlussel_reg_0[0]     |                                           |                9 |             13 |         1.44 |
+|  Clk_IBUF_BUFG       | GenDeb/ink0[0]                                       |                                           |                4 |             13 |         3.25 |
+|  Clk_IBUF_BUFG       | GenDeb/ink1[0]                                       |                                           |                4 |             13 |         3.25 |
+|  Clk_IBUF_BUFG       | GenDeb/reg1_const[0]                                 |                                           |                4 |             13 |         3.25 |
+|  Clk_IBUF_BUFG       | GenDeb/Sekunde_counter.Taster_schlussel_reg          |                                           |                4 |             13 |         3.25 |
+|  Clk_IBUF_BUFG       | GenDeb/E[0]                                          |                                           |                7 |             13 |         1.86 |
+|  Clk_IBUF_BUFG       |                                                      | Display_clk                               |                5 |             17 |         3.40 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[0].LastSig.clock_counter0_carry__0_n_0 | GenDeb/output8_out                        |                6 |             21 |         3.50 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[1].LastSig.clock_counter0_carry__0_n_0 | GenDeb/output6_out                        |                6 |             21 |         3.50 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[2].LastSig.clock_counter0_carry__0_n_0 | GenDeb/output4_out                        |                6 |             21 |         3.50 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[3].LastSig.clock_counter0_carry__0_n_0 | GenDeb/output2_out                        |                6 |             21 |         3.50 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[4].LastSig.clock_counter0_carry__0_n_0 | GenDeb/GenDeb[4].output[4]_i_1_n_0        |                6 |             21 |         3.50 |
+|  Clk_IBUF_BUFG       |                                                      | Blink_en                                  |                7 |             25 |         3.57 |
+|  Clk_IBUF_BUFG       | start_stop_IBUF                                      | Sekunde_clock.SCnt[25]_i_1_n_0            |                7 |             25 |         3.57 |
+|  Clk_IBUF_BUFG       |                                                      | GenDeb/Sekunde_counter.Taster_reg_25_sn_1 |                7 |             26 |         3.71 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[0].Reg_old[0][31]_i_1_n_0              |                                           |                6 |             32 |         5.33 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[1].Reg_old[1][31]_i_1_n_0              |                                           |                5 |             32 |         6.40 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[2].Reg_old[2][31]_i_1_n_0              |                                           |                5 |             32 |         6.40 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[3].Reg_old[3][31]_i_1_n_0              |                                           |                6 |             32 |         5.33 |
+|  Clk_IBUF_BUFG       | GenDeb/GenDeb[4].Reg_old[4][31]_i_1_n_0              |                                           |                6 |             32 |         5.33 |
+|  Clk_IBUF_BUFG       |                                                      |                                           |               53 |            180 |         3.40 |
++----------------------+------------------------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+
+
