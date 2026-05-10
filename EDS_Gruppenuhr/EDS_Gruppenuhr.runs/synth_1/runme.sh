@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Test_Anzeige.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Test_Anzeige.tcl
+EAStep vivado -log schachuhr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source schachuhr.tcl
