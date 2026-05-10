@@ -3,10 +3,10 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Wed Apr 29 11:15:11 2026
-# Process ID         : 41020
+# Start of session at: Thu Apr 30 19:10:43 2026
+# Process ID         : 102944
 # Current directory  : C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent57204 C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent106244 C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.xpr
 # Log file           : C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/vivado.log
 # Journal file       : C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr\vivado.jou
 # Running On         : BOOK-IIJ6TH63CB
@@ -17,9 +17,9 @@
 # CPU Physical cores : 12
 # CPU Logical cores  : 16
 # Host memory        : 16854 MB
-# Swap memory        : 6979 MB
-# Total Virtual      : 23834 MB
-# Available Virtual  : 10773 MB
+# Swap memory        : 17519 MB
+# Total Virtual      : 34373 MB
+# Available Virtual  : 25853 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.xpr}
@@ -91,7 +91,6 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.gen/sources_1'.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
@@ -121,6 +120,7 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/AMDDesignTools/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
@@ -133,49 +133,41 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:08 . Memory (MB): peak = 1693.082 ; gain = 229.359
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 1711.668 ; gain = 301.613
 update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files {{C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/2026_04_16_schachuhr.vhdl}}] -no_script -reset -force -quiet
-remove_files  {{C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.srcs/sources_1/imports/Code Ablage/2026_04_16_schachuhr.vhdl}}
-import_files -norecurse {{C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/schachuhr.vhdl}}
-update_compile_order -fileset sources_1
-add_files -fileset constrs_1 -norecurse {{C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/Basys-3-Master.xdc}}
-import_files -fileset constrs_1 {{C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/Basys-3-Master.xdc}}
-import_files -norecurse {{C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/Code Ablage/generic_debouncer.vhd}}
-update_compile_order -fileset sources_1
-set_property top schachuhr [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-set_property top schachuhr [current_fileset]
-update_compile_order -fileset sources_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-ERROR: [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 30 19:12:09 2026] Launched impl_1...
+Run output will be captured here: C:/Users/artoe/Documents/DHBW/Semester IV/Entwurf Digitaler Systeme/3_Prokekt_Labor/EDS-Schachuhr/EDS_Gruppenuhr/EDS_Gruppenuhr.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1868.156 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 151 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1958.715 ; gain = 0.191
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Read placeStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2561.371 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2561.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
 
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-ERROR: [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.
-
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\EDS-Schachuhr\schachuhr.vhdl:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\artoe\Documents\DHBW\Semester IV\Entwurf Digitaler Systeme\3_Prokekt_Labor\EDS-Schachuhr\EDS_Gruppenuhr\EDS_Gruppenuhr.srcs\sources_1\imports\Code Ablage\generic_debouncer.vhd:]
-ERROR: [Common 17-180] Spawn failed: Der Vorgang wurde erfolgreich beendet.
-
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 2940.504 ; gain = 1221.789
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 29 12:10:55 2026...
+INFO: [Common 17-206] Exiting Vivado at Sun May  3 21:06:16 2026...

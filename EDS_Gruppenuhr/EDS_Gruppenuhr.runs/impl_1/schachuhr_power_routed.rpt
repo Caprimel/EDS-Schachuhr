@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date             : Thu Apr 30 13:47:36 2026
+| Date             : Wed May  6 19:28:49 2026
 | Host             : BOOK-IIJ6TH63CB running 64-bit major release  (build 9200)
 | Command          : report_power -file schachuhr_power_routed.rpt -pb schachuhr_power_summary_routed.pb -rpx schachuhr_power_routed.rpx
 | Design           : schachuhr
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.083        |
+| Total On-Chip Power (W)  | 0.082        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.011        |
@@ -58,10 +58,10 @@ Table of Contents
 |   CARRY4       |    <0.001 |      151 |      8150 |            1.85 |
 |   Register     |    <0.001 |      631 |     41600 |            1.52 |
 |   Others       |     0.000 |        4 |       --- |             --- |
-| Signals        |     0.003 |     1104 |       --- |             --- |
+| Signals        |     0.003 |     1103 |       --- |             --- |
 | I/O            |     0.002 |       25 |       106 |           23.58 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.083 |          |           |                 |
+| Total          |     0.082 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
